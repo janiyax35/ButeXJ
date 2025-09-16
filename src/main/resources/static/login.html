@@ -64,7 +64,7 @@
             if (response.ok) {
                 alert(data.message);
                 if (data.role === 'Customer') {
-                    window.location.href = '/customer_dashboard.html';
+                    window.location.href = `/customer_dashboard.html?customerId=${data.id}`;
                 } else if (data.role === 'Staff') {
                     window.location.href = '/staff_dashboard.html';
                 } else {

@@ -25,7 +25,7 @@ public class AuthController {
 
         User user = userRepository.findByUsername(username);
         if (user != null && user.getPassword().equals(password)) {
-            return ResponseEntity.ok().body(Map.of("message", "Login successful", "role", user.getRole()));
+            return ResponseEntity.ok().body(Map.of("message", "Login successful", "role", user.getRole(), "id", user.getId()));
         } else {
             return ResponseEntity.status(401).body(Map.of("message", "Invalid credentials"));
         }

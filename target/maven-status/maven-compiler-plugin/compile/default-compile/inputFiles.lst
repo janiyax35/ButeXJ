@@ -4,10 +4,12 @@
 /app/src/main/java/com/bytex/repository/ActivityLogRepository.java
 /app/src/main/java/com/bytex/controller/WarehouseManagerController.java
 /app/src/main/java/com/bytex/repository/PartRequestRepository.java
+/app/src/main/java/com/bytex/controller/AuthController.java
 /app/src/main/java/com/bytex/repository/RepairRepository.java
 /app/src/main/java/com/bytex/repository/PartRepository.java
 /app/src/main/java/com/bytex/repository/RepairPartRepository.java
 /app/src/main/java/com/bytex/model/ActivityLog.java
+/app/src/main/java/com/bytex/config/SecurityConfig.java
 /app/src/main/java/com/bytex/service/TechnicianService.java
 /app/src/main/java/com/bytex/model/Response.java
 /app/src/main/java/com/bytex/controller/CustomerController.java
