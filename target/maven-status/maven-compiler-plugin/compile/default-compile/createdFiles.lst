@@ -16,6 +16,7 @@ com/bytex/repository/OrderItemRepository.class
 com/bytex/model/OrderItem.class
 com/bytex/repository/AttachmentRepository.class
 com/bytex/controller/ProductManagerController.class
+com/bytex/config/SecurityConfig.class
 com/bytex/model/User.class
 com/bytex/controller/TechnicianController.class
 com/bytex/repository/PartRequestRepository.class
@@ -35,3 +36,4 @@ com/bytex/model/PartRequest.class
 com/bytex/model/OrderItemId.class
 com/bytex/controller/AdminController.class
 com/bytex/controller/CustomerController.class
+com/bytex/controller/AuthController.class
